@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/mong_b"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#349537"
+        android:text="Get the life you want!\n    Save your money"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_weight="0.9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_rounded_v"
+        android:text="Create free account"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_rounded_v"
+        android:text="Continue with facebook"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="#349537"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_rounded_v"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="16dp" />
+</LinearLayout>
+
+</LinearLayout>
